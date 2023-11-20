@@ -1,0 +1,39 @@
+.FirstSemiFinal{
+  height: 250px;
+  width: 300px;
+  background-image: url('./asset/bg.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.clockMaliban{
+  padding-top: 10px;
+  width: fit-content;
+  padding-left: 30px;
+}
+
+.lastImg{
+  height: 250px;
+  width: 300px;
+}
+
+/* Define zoom animation */
+@keyframes zoom {
+  0%, 100% {
+    transform: scale(1); /* Zoom normal */
+  }
+  50% {
+    transform: scale(1.2); /* Zoom in */
+  }
+}
+
+/* Apply the animation to the img tag */
+.img-zoom {
+  animation: zoom 5s infinite;
+  height: 70px;
+  padding-top: 65px;
+  padding-left: 95px;
+}
